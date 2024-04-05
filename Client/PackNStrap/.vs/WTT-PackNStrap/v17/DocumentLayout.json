@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "Q:\\SPT_380\\SPT_Client_Mods\\PackNStrap\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F67C0E2B-4CC9-441D-B951-3EC3C1DFF7DF}|PackNStrap.csproj|q:\\spt_380\\spt_client_mods\\packnstrap\\core\\ui\\customriglayouts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F67C0E2B-4CC9-441D-B951-3EC3C1DFF7DF}|PackNStrap.csproj|solutionrelative:core\\ui\\customriglayouts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F67C0E2B-4CC9-441D-B951-3EC3C1DFF7DF}|PackNStrap.csproj|q:\\spt_380\\spt_client_mods\\packnstrap\\patches\\initconsolepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F67C0E2B-4CC9-441D-B951-3EC3C1DFF7DF}|PackNStrap.csproj|solutionrelative:patches\\initconsolepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F67C0E2B-4CC9-441D-B951-3EC3C1DFF7DF}|PackNStrap.csproj|q:\\spt_380\\spt_client_mods\\packnstrap\\packnstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F67C0E2B-4CC9-441D-B951-3EC3C1DFF7DF}|PackNStrap.csproj|solutionrelative:packnstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F67C0E2B-4CC9-441D-B951-3EC3C1DFF7DF}|PackNStrap.csproj|q:\\spt_380\\spt_client_mods\\packnstrap\\packnstrap.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F67C0E2B-4CC9-441D-B951-3EC3C1DFF7DF}|PackNStrap.csproj|solutionrelative:packnstrap.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67C0E2B-4CC9-441D-B951-3EC3C1DFF7DF}|PackNStrap.csproj|q:\\spt_380\\spt_client_mods\\packnstrap\\core\\ui\\customriglayouts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67C0E2B-4CC9-441D-B951-3EC3C1DFF7DF}|PackNStrap.csproj|solutionrelative:core\\ui\\customriglayouts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67C0E2B-4CC9-441D-B951-3EC3C1DFF7DF}|PackNStrap.csproj|q:\\spt_380\\spt_client_mods\\packnstrap\\patches\\initconsolepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67C0E2B-4CC9-441D-B951-3EC3C1DFF7DF}|PackNStrap.csproj|solutionrelative:patches\\initconsolepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,36 +26,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "PackNStrap.csproj",
               "DocumentMoniker": "Q:\\SPT_380\\SPT_Client_Mods\\PackNStrap\\PackNStrap.csproj",
               "RelativeDocumentMoniker": "PackNStrap.csproj",
               "ToolTip": "Q:\\SPT_380\\SPT_Client_Mods\\PackNStrap\\PackNStrap.csproj",
               "RelativeToolTip": "PackNStrap.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-03T00:10:31.497Z"
+              "WhenOpened": "2024-04-03T00:10:31.497Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CustomRigLayouts.cs",
               "DocumentMoniker": "Q:\\SPT_380\\SPT_Client_Mods\\PackNStrap\\Core\\UI\\CustomRigLayouts.cs",
               "RelativeDocumentMoniker": "Core\\UI\\CustomRigLayouts.cs",
               "ToolTip": "Q:\\SPT_380\\SPT_Client_Mods\\PackNStrap\\Core\\UI\\CustomRigLayouts.cs",
               "RelativeToolTip": "Core\\UI\\CustomRigLayouts.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABIAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T00:09:22.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-03T00:09:22.376Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "InitConsolePatch.cs",
               "DocumentMoniker": "Q:\\SPT_380\\SPT_Client_Mods\\PackNStrap\\Patches\\InitConsolePatch.cs",
               "RelativeDocumentMoniker": "Patches\\InitConsolePatch.cs",
@@ -67,15 +67,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PackNStrap.cs",
               "DocumentMoniker": "Q:\\SPT_380\\SPT_Client_Mods\\PackNStrap\\PackNStrap.cs",
               "RelativeDocumentMoniker": "PackNStrap.cs",
               "ToolTip": "Q:\\SPT_380\\SPT_Client_Mods\\PackNStrap\\PackNStrap.cs",
               "RelativeToolTip": "PackNStrap.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T00:07:40.118Z"
+              "WhenOpened": "2024-04-03T00:07:40.118Z",
+              "EditorCaption": ""
             }
           ]
         }

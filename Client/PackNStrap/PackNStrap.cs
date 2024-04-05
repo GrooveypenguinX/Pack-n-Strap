@@ -5,10 +5,11 @@ using EFT.InventoryLogic;
 using System;
 using System.IO;
 using System.Reflection;
+using HarmonyLib;
 
 namespace PackNStrap
 {
-    [BepInPlugin("com.WTT-PacknStrap.Core", "WTT-PackNStrap", "1.0.0")]
+    [BepInPlugin("com.aaaWTT-PacknStrap.Core", "WTT-PackNStrap", "1.0.0")]
 
     internal class PackNStrap : BaseUnityPlugin
     {

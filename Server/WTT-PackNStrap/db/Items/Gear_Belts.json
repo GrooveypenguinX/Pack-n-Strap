@@ -663,7 +663,7 @@
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 1,
+		"loyallevelitems": 2,
 		"addtoBots": false,
 		"addtostaticlootcontainer": false,
 		"StaticLootContainers": [

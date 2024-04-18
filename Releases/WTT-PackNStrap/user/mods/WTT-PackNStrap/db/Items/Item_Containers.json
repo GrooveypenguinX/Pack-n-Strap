@@ -1,5 +1,5 @@
 {
-	"container_smallscavcase": {
+	"0c22fc270f59b28c064e1232": {
 		"itemTplToClone": "5b7c710788a4506dec015957",
 		"parentId": "5795f317245977243854e041",
 		"handbookParentId": "5b5f6fa186f77409407a7eb7",
@@ -76,7 +76,7 @@
 		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
 		"Probability": 250
 	},
-	"container_toolpouch": {
+	"9543bbe8083934dc3b1b1330": {
 		"itemTplToClone": "5b7c710788a4506dec015957",
 		"parentId": "5795f317245977243854e041",
 		"handbookParentId": "5b5f6fa186f77409407a7eb7",
@@ -380,7 +380,7 @@
 		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
 		"Probability": 250
 	},
-	"container_smalldocscase": {
+	"c29f11b2e63a089916739c96": {
 		"itemTplToClone": "590c60fc86f77412b13fddcf",
 		"parentId": "5795f317245977243854e041",
 		"handbookParentId": "5b5f6fa186f77409407a7eb7",
@@ -499,7 +499,7 @@
 		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
 		"Probability": 250
 	},
-	"container_medpouch": {
+	"12403f74773f49be6a2d84b7": {
 		"itemTplToClone": "5aafbde786f774389d0cbc0f",
 		"parentId": "5795f317245977243854e041",
 		"handbookParentId": "5b5f6fa186f77409407a7eb7",
@@ -579,7 +579,7 @@
 		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
 		"Probability": 250
 	},
-	"container_ammopouch": {
+	"ae9e418fd5d4c4eec4a0e6ea": {
 		"itemTplToClone": "5aafbde786f774389d0cbc0f",
 		"parentId": "5795f317245977243854e041",
 		"handbookParentId": "5b5f6fa186f77409407a7eb7",
@@ -659,7 +659,7 @@
 		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
 		"Probability": 250
 	},
-	"container_magpouch": {
+	"440de5d056825485a0cf3a19": {
 		"itemTplToClone": "5c127c4486f7745625356c13",
 		"parentId": "5795f317245977243854e041",
 		"handbookParentId": "5b5f6fa186f77409407a7eb7",
@@ -738,7 +738,7 @@
 		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
 		"Probability": 250
 	},
-	"container_lunchbox": {
+	"6925918065a41e6b1e02a7d7": {
 		"itemTplToClone": "5c093db286f7740a1b2617e3",
 		"parentId": "5795f317245977243854e041",
 		"handbookParentId": "5b5f6fa186f77409407a7eb7",
@@ -821,7 +821,7 @@
 		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
 		"Probability": 250
 	},
-	"container_keyring": {
+	"2eabd4da4ab194eb168e72d3": {
 		"itemTplToClone": "59fafd4b86f7745ca07e1232",
 		"parentId": "5795f317245977243854e041",
 		"handbookParentId": "5b5f6fa186f77409407a7eb7",

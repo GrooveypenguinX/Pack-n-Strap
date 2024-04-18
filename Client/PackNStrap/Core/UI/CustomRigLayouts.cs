@@ -20,6 +20,10 @@ namespace PackNStrap.Core.UI
 
             if (!Directory.Exists(rigLayoutsDirectory))
             {
+                rigLayoutsDirectory = Path.Combine(PackNStrap.remotePath, "bundles", "Layouts");
+            }
+            else
+            {
                 Console.WriteLine("Rig layouts directory not found.");
                 return;
             }

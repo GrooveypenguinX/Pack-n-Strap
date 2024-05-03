@@ -6,52 +6,78 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-                "path": "Gear_Belts/belt_fannypack.bundle",
-                "rcid": ""
-              },
-			  "Width": 2,
-			  "Height": 2,
-			  "RigLayoutName": "",
-			  "Grids": [
+				"path": "Gear_Belts/belt_fannypack.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"RigLayoutName": "",
+			"Grids": [
 				{
-				  "_id": "belt_fannypackgrid",
-				  "_name": "main",
-				  "_parent": "belt_fannypack",
-				  "_props": {
-					"cellsH": 3,
-					"cellsV": 2,
-					"filters": [
-					  {
-
-						"Filter": [
-						  "54009119af1c881c07000029"
-						]
-					  }
-					],
-					"isSortingTable": false,
-					"maxCount": 0,
-					"maxWeight": 0,
-					"minCount": 0
-				  },
-				  "_proto": "55d329c24bdc2d892f8b4567"
+					"_id": "belt_fannypackgrid",
+					"_name": "main",
+					"_parent": "belt_fannypack",
+					"_props": {
+						"cellsH": 3,
+						"cellsV": 2,
+						"filters": [
+							{
+								"Filter": [
+									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
 				}
-			  ]
+			]
 		},
 		"locales": {
 			"en": {
 				"name": "Fanny Pack",
 				"shortName": "Fanny Pack",
 				"description": "A fanny pack that can be worn at the waist and carry a moderate amount of items."
+			},
+			"ru": {
+				"name": "Поясная сумка",
+				"shortName": "Поясная сумка",
+				"description": "Поясная сумка в которой можно разместить небольшое количество предметов."
 			}
 		},
 		"clearClonedProps": false,
-		"addtoInventorySlots": ["ArmBand"],
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
 		"addtoModSlots": false,
 		"modSlot": [],
 		"ModdableItemWhitelist": [],
 		"ModdableItemBlacklist": [],
-		"fleaPriceRoubles": 10500,
-		"handbookPriceRoubles": 12250,
+		"fleaPriceRoubles": 14500,
+		"handbookPriceRoubles": 10250,
 		"addtoTraders": true,
 		"traderId": "RAGMAN",
 		"traderItems": [
@@ -62,7 +88,7 @@
 		],
 		"barterScheme": [
 			{
-				"count": 14500,
+				"count": 12250,
 				"_tpl": "ROUBLES"
 			}
 		],
@@ -91,12 +117,12 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-                "path": "Gear_Belts/aerocorppistoleercombatbelt.bundle",
-                "rcid": ""
-              },
-			  "Width": 2,
-			  "Height": 2,
-			  "Grids": [
+				"path": "Gear_Belts/aerocorppistoleercombatbelt.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
 				{
 					"_id": "dd2bb30894b0c372396a7b9e",
 					"_name": "GridView (1)",
@@ -106,11 +132,29 @@
 						"cellsV": "1",
 						"filters": [
 							{
-								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
-								],
 								"Filter": [
 									"54009119af1c881c07000029"
+								],
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								]
 							}
 						],
@@ -131,7 +175,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -155,7 +217,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -179,7 +259,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -203,7 +301,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -227,7 +343,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -251,7 +385,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -266,23 +418,30 @@
 					"_proto": "55d329c24bdc2d892f8b4567"
 				}
 			],
-			  "RigLayoutName": "aero_p"
+			"RigLayoutName": "aero_p"
 		},
 		"locales": {
 			"en": {
 				"name": "Aero Corp Pistoleer Combat Belt",
 				"shortName": "Pistoleer",
 				"description": "A lightweight combat belt with moderate carrying capacity manufactured by Aero Corporation."
+			},
+			"ru": {
+				"name": "Боевой пояс Aero Corp Pistoleer ",
+				"shortName": "Pistoleer",
+				"description": "Легкий боевой пояс средней грузоподъемности производства Aero Corporation."
 			}
 		},
 		"clearClonedProps": false,
-		"addtoInventorySlots": ["ArmBand"],
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
 		"addtoModSlots": false,
 		"modSlot": [],
 		"ModdableItemWhitelist": [],
 		"ModdableItemBlacklist": [],
-		"fleaPriceRoubles": 9700,
-		"handbookPriceRoubles": 10000,
+		"fleaPriceRoubles": 13200,
+		"handbookPriceRoubles": 9700,
 		"addtoTraders": true,
 		"traderId": "SKIER",
 		"traderItems": [
@@ -293,11 +452,11 @@
 		],
 		"barterScheme": [
 			{
-				"count": 13200,
+				"count": 10480,
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 2,
+		"loyallevelitems": 1,
 		"addtoBots": false,
 		"addtostaticlootcontainer": false,
 		"StaticLootContainers": [
@@ -322,12 +481,12 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-                "path": "Gear_Belts/citadelgeneralpurposeutilitybelt.bundle",
-                "rcid": ""
-              },
-			  "Width": 2,
-			  "Height": 2,
-			  "Grids": [
+				"path": "Gear_Belts/citadelgeneralpurposeutilitybelt.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
 				{
 					"_id": "5a524bf1d42938994b4542b1",
 					"_name": "GridView (1)",
@@ -338,7 +497,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -362,7 +539,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -386,7 +581,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -410,7 +623,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -425,23 +656,30 @@
 					"_proto": "55d329c24bdc2d892f8b4567"
 				}
 			],
-			  "RigLayoutName": "citadel_gpub"
+			"RigLayoutName": "citadel_gpub"
 		},
 		"locales": {
 			"en": {
 				"name": "Citadel Industries General Purpose Utility Belt",
 				"shortName": "Utility",
 				"description": "A general purpose tactical belt manufactured by Citadel Industries."
+			},
+			"ru": {
+				"name": "Пояс общего назначения Citadel Industries ",
+				"shortName": "Utility",
+				"description": "Тактический пояс общего назначения производства Citadel Industries."
 			}
 		},
 		"clearClonedProps": false,
-		"addtoInventorySlots": ["ArmBand"],
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
 		"addtoModSlots": false,
 		"modSlot": [],
 		"ModdableItemWhitelist": [],
 		"ModdableItemBlacklist": [],
-		"fleaPriceRoubles": 11500,
-		"handbookPriceRoubles": 12000,
+		"fleaPriceRoubles": 14000,
+		"handbookPriceRoubles": 11000,
 		"addtoTraders": true,
 		"traderId": "MECHANIC",
 		"traderItems": [
@@ -452,7 +690,7 @@
 		],
 		"barterScheme": [
 			{
-				"count": 14000,
+				"count": 13400,
 				"_tpl": "ROUBLES"
 			}
 		],
@@ -481,12 +719,12 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-                "path": "Gear_Belts/pointmanassaultbelt.bundle",
-                "rcid": ""
-              },
-			  "Width": 2,
-			  "Height": 2,
-			  "Grids": [
+				"path": "Gear_Belts/pointmanassaultbelt.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
 				{
 					"_id": "2ae5cf04d6b5a326ed867fd6",
 					"_name": "GridView (1)",
@@ -497,7 +735,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -521,7 +777,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -545,7 +819,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -569,7 +861,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -593,7 +903,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -617,7 +945,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -631,23 +977,30 @@
 					},
 					"_proto": "55d329c24bdc2d892f8b4567"
 				}
-			  ],
-			  "RigLayoutName": "pointman"
+			],
+			"RigLayoutName": "pointman"
 		},
 		"locales": {
 			"en": {
 				"name": "Combat Solutions Pointman Assault Belt",
 				"shortName": "Pointman",
 				"description": "A tactical belt with several pistol magazine pouches and a dump pouch manufactured by Combat Solutions."
+			},
+			"ru": {
+				"name": "Штурмовой поясCombat Solutions Pointman",
+				"shortName": "Pointman",
+				"description": "Тактический пояс с несколькими подсумками для пистолетных магазинов и подсумком-разгрузкой производства Combat Solutions."
 			}
 		},
 		"clearClonedProps": false,
-		"addtoInventorySlots": ["ArmBand"],
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
 		"addtoModSlots": false,
 		"modSlot": [],
 		"ModdableItemWhitelist": [],
 		"ModdableItemBlacklist": [],
-		"fleaPriceRoubles": 15500,
+		"fleaPriceRoubles": 24500,
 		"handbookPriceRoubles": 17500,
 		"addtoTraders": true,
 		"traderId": "RAGMAN",
@@ -659,7 +1012,7 @@
 		],
 		"barterScheme": [
 			{
-				"count": 24500,
+				"count": 18700,
 				"_tpl": "ROUBLES"
 			}
 		],
@@ -688,12 +1041,12 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-                "path": "Gear_Belts/polytechorionreconbelt.bundle",
-                "rcid": ""
-              },
-			  "Width": 2,
-			  "Height": 2,
-			  "Grids": [
+				"path": "Gear_Belts/polytechorionreconbelt.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
 				{
 					"_id": "91df979afa0c8c30086d22e8",
 					"_name": "GridView (1)",
@@ -704,7 +1057,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -728,7 +1099,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -742,24 +1131,31 @@
 					},
 					"_proto": "55d329c24bdc2d892f8b4567"
 				}
-			  ],
-			  "RigLayoutName": "orion"
+			],
+			"RigLayoutName": "orion"
 		},
 		"locales": {
 			"en": {
 				"name": "Polytech Orion Recon Belt",
 				"shortName": "Orion",
 				"description": "A lightweight tactical recon belt manufactured by Polytech Industries."
+			},
+			"ru": {
+				"name": "Пояс разведчика Polytech Orion",
+				"shortName": "Orion",
+				"description": "Легкий тактический разведывательный пояс производства Polytech Industries."
 			}
 		},
 		"clearClonedProps": false,
-		"addtoInventorySlots": ["ArmBand"],
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
 		"addtoModSlots": false,
 		"modSlot": [],
 		"ModdableItemWhitelist": [],
 		"ModdableItemBlacklist": [],
-		"fleaPriceRoubles": 5000,
-		"handbookPriceRoubles": 5500,
+		"fleaPriceRoubles": 6500,
+		"handbookPriceRoubles": 5000,
 		"addtoTraders": true,
 		"traderId": "SKIER",
 		"traderItems": [
@@ -770,7 +1166,7 @@
 		],
 		"barterScheme": [
 			{
-				"count": 6500,
+				"count": 5400,
 				"_tpl": "ROUBLES"
 			}
 		],
@@ -799,12 +1195,12 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-                "path": "Gear_Belts/lh63russianfederationdutybelt.bundle",
-                "rcid": ""
-              },
-			  "Width": 2,
-			  "Height": 2,
-			  "Grids": [
+				"path": "Gear_Belts/lh63russianfederationdutybelt.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
 				{
 					"_id": "e204d5208c7a3a8f5ca5668c",
 					"_name": "GridView (1)",
@@ -815,7 +1211,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -839,7 +1253,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -863,7 +1295,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -887,7 +1337,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -911,7 +1379,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -935,7 +1421,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -959,7 +1463,25 @@
 						"filters": [
 							{
 								"ExcludedFilter": [
-									"5448bf274bdc2dfc2f8b456a"
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
 								],
 								"Filter": [
 									"54009119af1c881c07000029"
@@ -973,24 +1495,31 @@
 					},
 					"_proto": "55d329c24bdc2d892f8b4567"
 				}
-			  ],
-			  "RigLayoutName": "lh63"
+			],
+			"RigLayoutName": "lh63"
 		},
 		"locales": {
 			"en": {
 				"name": "LH-63 Duty Belt",
 				"shortName": "LH-63",
 				"description": "A Russian Federation duty belt that can carry a moderate amount of gear."
+			},
+			"ru": {
+				"name": "LH-63 Рабочий ремень",
+				"shortName": "LH-63",
+				"description": "Рабочий ремень ВСРФ, на котором может поместиться умеренное количество снаряжения."
 			}
 		},
 		"clearClonedProps": false,
-		"addtoInventorySlots": ["ArmBand"],
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
 		"addtoModSlots": false,
 		"modSlot": [],
 		"ModdableItemWhitelist": [],
 		"ModdableItemBlacklist": [],
-		"fleaPriceRoubles": 15000,
-		"handbookPriceRoubles": 16000,
+		"fleaPriceRoubles": 16899,
+		"handbookPriceRoubles": 15500,
 		"addtoTraders": true,
 		"traderId": "PRAPOR",
 		"traderItems": [
@@ -1001,11 +1530,11 @@
 		],
 		"barterScheme": [
 			{
-				"count": 17000,
+				"count": 16200,
 				"_tpl": "ROUBLES"
 			}
 		],
-		"loyallevelitems": 2,
+		"loyallevelitems": 1,
 		"addtoBots": false,
 		"addtostaticlootcontainer": false,
 		"StaticLootContainers": [
@@ -1030,147 +1559,246 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-                "path": "Gear_Belts/rebel9c.bundle",
-                "rcid": ""
-              },
-			  "Width": 2,
-			  "Height": 2,
-			  "Grids": [  {
-				"_id": "7963c5d31cb89db46c35373f",
-				"_name": "GridView (1)",
-				"_parent": "rebel9",
-				"_props": {
-					"cellsH": "1",
-					"cellsV": "2",
-					"filters": [
-						{
-							"ExcludedFilter": [
-								"5448bf274bdc2dfc2f8b456a"
-							],
-							"Filter": [
-								"54009119af1c881c07000029"
-							]
-						}
-					],
-					"isSortingTable": false,
-					"maxCount": 0,
-					"maxWeight": 0,
-					"minCount": 0
-				},
-				"_proto": "55d329c24bdc2d892f8b4567"
+				"path": "Gear_Belts/rebel9c.bundle",
+				"rcid": ""
 			},
-			{
-				"_id": "1586268416bc0aa73a6693ff",
-				"_name": "GridView (2)",
-				"_parent": "rebel9",
-				"_props": {
-					"cellsH": "1",
-					"cellsV": "2",
-					"filters": [
-						{
-							"ExcludedFilter": [
-								"5448bf274bdc2dfc2f8b456a"
-							],
-							"Filter": [
-								"54009119af1c881c07000029"
-							]
-						}
-					],
-					"isSortingTable": false,
-					"maxCount": 0,
-					"maxWeight": 0,
-					"minCount": 0
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "7963c5d31cb89db46c35373f",
+					"_name": "GridView (1)",
+					"_parent": "rebel9",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
 				},
-				"_proto": "55d329c24bdc2d892f8b4567"
-			},
-			{
-				"_id": "b512a8ca9b8fb4591cfa1e90",
-				"_name": "GridView (3)",
-				"_parent": "rebel9",
-				"_props": {
-					"cellsH": "1",
-					"cellsV": "3",
-					"filters": [
-						{
-							"ExcludedFilter": [
-								"5448bf274bdc2dfc2f8b456a"
-							],
-							"Filter": [
-								"54009119af1c881c07000029"
-							]
-						}
-					],
-					"isSortingTable": false,
-					"maxCount": 0,
-					"maxWeight": 0,
-					"minCount": 0
+				{
+					"_id": "1586268416bc0aa73a6693ff",
+					"_name": "GridView (2)",
+					"_parent": "rebel9",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
 				},
-				"_proto": "55d329c24bdc2d892f8b4567"
-			},
-			{
-				"_id": "a3e7d0dc81ce2a7f4f2a4557",
-				"_name": "GridView (4)",
-				"_parent": "rebel9",
-				"_props": {
-					"cellsH": "1",
-					"cellsV": "1",
-					"filters": [
-						{
-							"ExcludedFilter": [
-								"5448bf274bdc2dfc2f8b456a"
-							],
-							"Filter": [
-								"54009119af1c881c07000029"
-							]
-						}
-					],
-					"isSortingTable": false,
-					"maxCount": 0,
-					"maxWeight": 0,
-					"minCount": 0
+				{
+					"_id": "b512a8ca9b8fb4591cfa1e90",
+					"_name": "GridView (3)",
+					"_parent": "rebel9",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "3",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
 				},
-				"_proto": "55d329c24bdc2d892f8b4567"
-			},
-			{
-				"_id": "be5f5d487b29e5e5a777bb6c",
-				"_name": "GridView (5)",
-				"_parent": "rebel9",
-				"_props": {
-					"cellsH": "1",
-					"cellsV": "1",
-					"filters": [
-						{
-							"ExcludedFilter": [
-								"5448bf274bdc2dfc2f8b456a"
-							],
-							"Filter": [
-								"54009119af1c881c07000029"
-							]
-						}
-					],
-					"isSortingTable": false,
-					"maxCount": 0,
-					"maxWeight": 0,
-					"minCount": 0
+				{
+					"_id": "a3e7d0dc81ce2a7f4f2a4557",
+					"_name": "GridView (4)",
+					"_parent": "rebel9",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
 				},
-				"_proto": "55d329c24bdc2d892f8b4567"
-			}],
-			  "RigLayoutName": "rebel9"
+				{
+					"_id": "be5f5d487b29e5e5a777bb6c",
+					"_name": "GridView (5)",
+					"_parent": "rebel9",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "rebel9"
 		},
 		"locales": {
 			"en": {
 				"name": "Rebel-9 Assaulter Belt (Camo)",
 				"shortName": "Rebel-9",
 				"description": "A mid-tier tactical belt that features a dump pouch. Camo variant."
+			},
+			"ru": {
+				"name": "Пояс штурмовика Rebel-9 (Camo)",
+				"shortName": "Rebel-9",
+				"description": "Тактический пояс среднего уровня с подсумком для переноски. Камуфляжный вариант."
 			}
 		},
 		"clearClonedProps": false,
-		"addtoInventorySlots": ["ArmBand"],
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
 		"addtoModSlots": false,
 		"modSlot": [],
 		"ModdableItemWhitelist": [],
 		"ModdableItemBlacklist": [],
-		"fleaPriceRoubles": 16500,
+		"fleaPriceRoubles": 18500,
 		"handbookPriceRoubles": 17000,
 		"addtoTraders": true,
 		"traderId": "PEACEKEEPER",
@@ -1211,147 +1839,246 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-                "path": "Gear_Belts/rebel9g.bundle",
-                "rcid": ""
-              },
-			  "Width": 2,
-			  "Height": 2,
-			  "Grids": [  {
-				"_id": "7963c5d31cb89db46c35373f",
-				"_name": "GridView (1)",
-				"_parent": "rebel9",
-				"_props": {
-					"cellsH": "1",
-					"cellsV": "2",
-					"filters": [
-						{
-							"ExcludedFilter": [
-								"5448bf274bdc2dfc2f8b456a"
-							],
-							"Filter": [
-								"54009119af1c881c07000029"
-							]
-						}
-					],
-					"isSortingTable": false,
-					"maxCount": 0,
-					"maxWeight": 0,
-					"minCount": 0
-				},
-				"_proto": "55d329c24bdc2d892f8b4567"
+				"path": "Gear_Belts/rebel9g.bundle",
+				"rcid": ""
 			},
-			{
-				"_id": "1586268416bc0aa73a6693ff",
-				"_name": "GridView (2)",
-				"_parent": "rebel9",
-				"_props": {
-					"cellsH": "1",
-					"cellsV": "2",
-					"filters": [
-						{
-							"ExcludedFilter": [
-								"5448bf274bdc2dfc2f8b456a"
-							],
-							"Filter": [
-								"54009119af1c881c07000029"
-							]
-						}
-					],
-					"isSortingTable": false,
-					"maxCount": 0,
-					"maxWeight": 0,
-					"minCount": 0
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "7963c5d31cb89db46c35373f",
+					"_name": "GridView (1)",
+					"_parent": "rebel9",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
 				},
-				"_proto": "55d329c24bdc2d892f8b4567"
-			},
-			{
-				"_id": "b512a8ca9b8fb4591cfa1e90",
-				"_name": "GridView (3)",
-				"_parent": "rebel9",
-				"_props": {
-					"cellsH": "1",
-					"cellsV": "3",
-					"filters": [
-						{
-							"ExcludedFilter": [
-								"5448bf274bdc2dfc2f8b456a"
-							],
-							"Filter": [
-								"54009119af1c881c07000029"
-							]
-						}
-					],
-					"isSortingTable": false,
-					"maxCount": 0,
-					"maxWeight": 0,
-					"minCount": 0
+				{
+					"_id": "1586268416bc0aa73a6693ff",
+					"_name": "GridView (2)",
+					"_parent": "rebel9",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
 				},
-				"_proto": "55d329c24bdc2d892f8b4567"
-			},
-			{
-				"_id": "a3e7d0dc81ce2a7f4f2a4557",
-				"_name": "GridView (4)",
-				"_parent": "rebel9",
-				"_props": {
-					"cellsH": "1",
-					"cellsV": "1",
-					"filters": [
-						{
-							"ExcludedFilter": [
-								"5448bf274bdc2dfc2f8b456a"
-							],
-							"Filter": [
-								"54009119af1c881c07000029"
-							]
-						}
-					],
-					"isSortingTable": false,
-					"maxCount": 0,
-					"maxWeight": 0,
-					"minCount": 0
+				{
+					"_id": "b512a8ca9b8fb4591cfa1e90",
+					"_name": "GridView (3)",
+					"_parent": "rebel9",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "3",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
 				},
-				"_proto": "55d329c24bdc2d892f8b4567"
-			},
-			{
-				"_id": "be5f5d487b29e5e5a777bb6c",
-				"_name": "GridView (5)",
-				"_parent": "rebel9",
-				"_props": {
-					"cellsH": "1",
-					"cellsV": "1",
-					"filters": [
-						{
-							"ExcludedFilter": [
-								"5448bf274bdc2dfc2f8b456a"
-							],
-							"Filter": [
-								"54009119af1c881c07000029"
-							]
-						}
-					],
-					"isSortingTable": false,
-					"maxCount": 0,
-					"maxWeight": 0,
-					"minCount": 0
+				{
+					"_id": "a3e7d0dc81ce2a7f4f2a4557",
+					"_name": "GridView (4)",
+					"_parent": "rebel9",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
 				},
-				"_proto": "55d329c24bdc2d892f8b4567"
-			}],
-			  "RigLayoutName": "rebel9"
+				{
+					"_id": "be5f5d487b29e5e5a777bb6c",
+					"_name": "GridView (5)",
+					"_parent": "rebel9",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "rebel9"
 		},
 		"locales": {
 			"en": {
 				"name": "Rebel-9 Assaulter Belt (OD)",
 				"shortName": "Rebel-9",
 				"description": "A mid-tier tactical belt that features a dump pouch. Olive drab variant."
+			},
+			"ru": {
+				"name": "Пояс штурмовика Rebel-9 (OD)",
+				"shortName": "Rebel-9",
+				"description": "Тактический пояс среднего размера с подсумком для ношения на плече. Вариант в оливково-сером цвете."
 			}
 		},
 		"clearClonedProps": false,
-		"addtoInventorySlots": ["ArmBand"],
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
 		"addtoModSlots": false,
 		"modSlot": [],
 		"ModdableItemWhitelist": [],
 		"ModdableItemBlacklist": [],
-		"fleaPriceRoubles": 16500,
+		"fleaPriceRoubles": 18500,
 		"handbookPriceRoubles": 17000,
 		"addtoTraders": true,
 		"traderId": "RAGMAN",
@@ -1368,6 +2095,3856 @@
 			}
 		],
 		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"assaullterbelt3": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/assaullterbelt3.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "f939ba90138ca1f3048ef223",
+					"_name": "GridView (1)",
+					"_parent": "assaulter",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "3",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "358a80f74ff20a0833a63419",
+					"_name": "GridView (2)",
+					"_parent": "assaulter",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "3",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "bd4d822f1dce7d469969b9c2",
+					"_name": "GridView (3)",
+					"_parent": "assaulter",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "ed8a4b86e833e517adae09eb",
+					"_name": "GridView (4)",
+					"_parent": "assaulter",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "5f2d1ea46046931bd396b1ab",
+					"_name": "GridView (5)",
+					"_parent": "assaulter",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "assaulter"
+		},
+		"locales": {
+			"en": {
+				"name": "Bison Assaulter Belt",
+				"shortName": "Assaulter",
+				"description": "A Ferro Bison assaulter belt."
+			},
+			"ru": {
+				"name": "Пояс штурмовика Bison Assaulter",
+				"shortName": "Assaulter",
+				"description": "Штурмовой пояс \"Ферро Бизон\"."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 25899,
+		"handbookPriceRoubles": 19800,
+		"addtoTraders": true,
+		"traderId": "PRAPOR",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 22500,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"medicbelt": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/medicbelt.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "250f04fdee37643a5a4a121e",
+					"_name": "GridView (1)",
+					"_parent": "medicbelt",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "164c332484a11b902925f741",
+					"_name": "GridView (2)",
+					"_parent": "medicbelt",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "ccb1dc669d1cf01a3c683f67",
+					"_name": "GridView (3)",
+					"_parent": "medicbelt",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "409b9f573ad15ad7d5fe9c09",
+					"_name": "GridView (4)",
+					"_parent": "medicbelt",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "5264a23cf2e2b0ef3fdfed2d",
+					"_name": "GridView (5)",
+					"_parent": "medicbelt",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "fe7d0abbf615c51af3fb0346",
+					"_name": "GridView (6)",
+					"_parent": "medicbelt",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "3a944002303c50586618ab60",
+					"_name": "GridView (7)",
+					"_parent": "medicbelt",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "medicbelt"
+		},
+		"locales": {
+			"en": {
+				"name": "Medic Belt",
+				"shortName": "MARCH",
+				"description": "A Ferro Bison assaulter belt configured as a MARCH medic belt."
+			},
+			"ru": {
+				"name": "Медицинский пояс",
+				"shortName": "MARCH",
+				"description": "Пояс штурмовика \"Ферро Бизон\", выполненный в виде походного медицинского пояса."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 29500,
+		"handbookPriceRoubles": 23400,
+		"addtoTraders": true,
+		"traderId": "THERAPIST",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 24400,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"mrbgrenadierc": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/mrbgrenadierc.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "e6e87b45af02e7fc852f91bc",
+					"_name": "GridView (1)",
+					"_parent": "mrbgrenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "2e5e5eb9e80c2777e9ce3c57",
+					"_name": "GridView (2)",
+					"_parent": "mrbgrenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "d2808e7469726c327e91a1ea",
+					"_name": "GridView (3)",
+					"_parent": "mrbgrenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "40d0e3ed607cf45a7ca24863",
+					"_name": "GridView (4)",
+					"_parent": "mrbgrenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "2e4acd54583e1cae848545ce",
+					"_name": "GridView (5)",
+					"_parent": "mrbgrenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "bb2dafb373435c3b41445de9",
+					"_name": "GridView (6)",
+					"_parent": "mrbgrenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "579a8882d1e4c2a78111472d",
+					"_name": "GridView (7)",
+					"_parent": "mrbgrenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "64c44ff86ea9799dbe2af133",
+					"_name": "GridView (8)",
+					"_parent": "mrbgrenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "2e336090770edc9ef70c5969",
+					"_name": "GridView (9)",
+					"_parent": "mrbgrenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "e6293ae6091740ac0dbe072c",
+					"_name": "GridView (10)",
+					"_parent": "mrbgrenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "mrbgrenadier"
+		},
+		"locales": {
+			"en": {
+				"name": "MRB Grenadier Belt",
+				"shortName": "MRB Grenadier",
+				"description": "A Crye Precision MRB belt set up for a grenadier."
+			},
+			"ru": {
+				"name": "Гренадерский пояс MRB ",
+				"shortName": "MRB Гренадер",
+				"description": "Пояс Crye Precision MRB, предназначенный для гренадера."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 26780,
+		"handbookPriceRoubles": 21230,
+		"addtoTraders": true,
+		"traderId": "RAGMAN",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 245,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"mrbvogb": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/mrbvogb.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "c91589697542c51dfd8a93cc",
+					"_name": "GridView (1)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "e8a661975b583517031d3f56",
+					"_name": "GridView (2)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "717feecbe954ecb34f8b12dc",
+					"_name": "GridView (3)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "715977877ba84ef2e672b8db",
+					"_name": "GridView (4)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "dbb66362efe7288dd25ba45d",
+					"_name": "GridView (5)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "9e1d4026cefe66869e91a2b0",
+					"_name": "GridView (6)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "7537752dcf188718fbe319fb",
+					"_name": "GridView (7)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "3487bb90473e9410bddf1695",
+					"_name": "GridView (8)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "60c2958fb764de1697ae769e",
+					"_name": "GridView (9)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "fa1ca2884c271092e4109d90",
+					"_name": "GridView (10)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "2e0371bd839b8363376922fa",
+					"_name": "GridView (11)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "c82ac45183d4c965502a9e7f",
+					"_name": "GridView (12)",
+					"_parent": "vog",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "vog"
+		},
+		"locales": {
+			"en": {
+				"name": "MRB VOG Grenadier Belt",
+				"shortName": "VOG Grenadier",
+				"description": "A Crye Precision MRB belt set up for a VOG grenadier."
+			},
+			"ru": {
+				"name": "Гренадерский пояс MRB VOG",
+				"shortName": "VOG Гренадер",
+				"description": "Пояс Crye Precision MRB, предназначенный для VOG гренадера."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 39890,
+		"handbookPriceRoubles": 33400,
+		"addtoTraders": true,
+		"traderId": "PRAPOR",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 35500,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"grenadierbelt": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/grenadierbelt.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "12db88cd94bc4c59c7eec95e",
+					"_name": "GridView (1)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "d5ee1bf6a2e7e8d6676c039f",
+					"_name": "GridView (2)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "437edf261ced8391e82e0a04",
+					"_name": "GridView (3)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "29eeefc687fbf5117d793873",
+					"_name": "GridView (4)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "6fba2e3ae7d134e88d410c32",
+					"_name": "GridView (5)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "a9eff0fb117231f67dc86a53",
+					"_name": "GridView (6)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "57598f92698ae41d1641206d",
+					"_name": "GridView (7)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "97caaee88e27fdb3fcf05352",
+					"_name": "GridView (8)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "05f241a65a7aed8ac2cb3c77",
+					"_name": "GridView (9)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "a5bb697de1cad1daa2e5cdfc",
+					"_name": "GridView (10)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "162424f029a8406fa84d8ab9",
+					"_name": "GridView (11)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "3824f22e3cfb59ccc3001df3",
+					"_name": "GridView (12)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "9453fd64766e280619f583ee",
+					"_name": "GridView (13)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "d3b60fd1b9ca4291add4c6a1",
+					"_name": "GridView (14)",
+					"_parent": "grenadier",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "grenadier"
+		},
+		"locales": {
+			"en": {
+				"name": "Grenadier Belt",
+				"shortName": "Grenadier",
+				"description": "A Ferro Bison assaulter belt with a Tactical Tailor Grenadier bandolier."
+			},
+			"ru": {
+				"name": "Гренадерский пояс",
+				"shortName": "Grenadier",
+				"description": "Штурмовой пояс Ferro Bison с тактическим патронташем для гранат."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 37880,
+		"handbookPriceRoubles": 30400,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 34440,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"assaultermedic": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/assaultermedic.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "4a68f4f59c85aa71b92d7049",
+					"_name": "GridView (1)",
+					"_parent": "assaultermedic",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "9d4d1855ddfe97558559e4fe",
+					"_name": "GridView (2)",
+					"_parent": "assaultermedic",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "e4fd59577d482d92a4bb3927",
+					"_name": "GridView (3)",
+					"_parent": "assaultermedic",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "5470d8fb9739140a474de427",
+					"_name": "GridView (4)",
+					"_parent": "assaultermedic",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "09c40c8ba718271ef266a474",
+					"_name": "GridView (5)",
+					"_parent": "assaultermedic",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "d4b4fb2956b3a5667959d111",
+					"_name": "GridView (6)",
+					"_parent": "assaultermedic",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "assaultermedic"
+		},
+		"locales": {
+			"en": {
+				"name": "MARCH Assaulter Belt",
+				"shortName": "MARCH Assaulter",
+				"description": "A Ferro Bison assaulter belt configured as a MARCH medic belt."
+			},
+			"ru": {
+				"name": "Пояс MARCH Assaulter",
+				"shortName": "MARCH Assaulter",
+				"description": "Пояс штурмовика \"Ферро Бизон\", выполненный в виде походного медицинского пояса."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 33240,
+		"handbookPriceRoubles": 27800,
+		"addtoTraders": true,
+		"traderId": "THERAPIST",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 28990,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"mrblmga": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/mrblmga.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "7661ef69d8b7e3201abf0ef0",
+					"_name": "GridView (1)",
+					"_parent": "mrblmg",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "17b9b1f8eb02003d45309a95",
+					"_name": "GridView (2)",
+					"_parent": "mrblmg",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "e524d0a492bbda60ffa22438",
+					"_name": "GridView (3)",
+					"_parent": "mrblmg",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "8dd0c7140af28464d3d7a541",
+					"_name": "GridView (4)",
+					"_parent": "mrblmg",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "cfb0111344fb167d100bbd40",
+					"_name": "GridView (5)",
+					"_parent": "mrblmg",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "mrblmg"
+		},
+		"locales": {
+			"en": {
+				"name": "MRB LMG Belt",
+				"shortName": "MRB LMG",
+				"description": "A Crye Precision MRB belt configured as an LMG gunners belt."
+			},
+			"ru": {
+				"name": "Пояс MRB LMG",
+				"shortName": "MRB LMG",
+				"description": "Пояс Crye Precision MRB, сконфигурированный как пояс для стрелков LMG."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 44500,
+		"handbookPriceRoubles": 39200,
+		"addtoTraders": true,
+		"traderId": "PRAPOR",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 40200,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"competitionbelt": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/competitionbelt.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "e27e823a90f4da63f747f3c3",
+					"_name": "GridView (1)",
+					"_parent": "competitionbelt",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "a93284929bec6aeca9960d83",
+					"_name": "GridView (2)",
+					"_parent": "competitionbelt",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "51e9ad8e36eade10197d7778",
+					"_name": "GridView (3)",
+					"_parent": "competitionbelt",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "1cb85dc4fd45f0ae69013c39",
+					"_name": "GridView (4)",
+					"_parent": "competitionbelt",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "9515cbf9fbf721cb9f8c68c3",
+					"_name": "GridView (5)",
+					"_parent": "competitionbelt",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "competitionbelt"
+		},
+		"locales": {
+			"en": {
+				"name": "Competitor Belt",
+				"shortName": "Comp Belt",
+				"description": "A practical pistol shooting competition belt."
+			},
+			"ru": {
+				"name": "Компрессионный ремень",
+				"shortName": "Comp Belt",
+				"description": "Пояс для соревнований по практической стрельбе из пистолета."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 12300,
+		"handbookPriceRoubles": 8800,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 9340,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"riflemanbeltbison": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/riflemanbeltbison.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "4488312dca934b4716cabbef",
+					"_name": "GridView (1)",
+					"_parent": "riflemanbison",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "b6e905629d75714971814be1",
+					"_name": "GridView (2)",
+					"_parent": "riflemanbison",
+					"_props": {
+						"cellsH": "2",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "6ae20a3b575f5ee9c892816a",
+					"_name": "GridView (3)",
+					"_parent": "riflemanbison",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "791885b3e5121ed31fbbe520",
+					"_name": "GridView (4)",
+					"_parent": "riflemanbison",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "62deac364d091a1e4f600eac",
+					"_name": "GridView (5)",
+					"_parent": "riflemanbison",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "722462f1aa1707935715711f",
+					"_name": "GridView (6)",
+					"_parent": "riflemanbison",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "riflemanbison"
+		},
+		"locales": {
+			"en": {
+				"name": "Bison Rifleman Belt",
+				"shortName": "Rifleman",
+				"description": "A Ferro Bison rifleman belt."
+			},
+			"ru": {
+				"name": "Пояс Bison Rifleman",
+				"shortName": "Rifleman",
+				"description": "Пояс для стрелка \"Ферро Бизон\"."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 14300,
+		"handbookPriceRoubles": 11230,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 13200,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"kitteddangler": {
+		"itemTplToClone": "572b7adb24597762ae139821",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Gear_Belts/kitteddangler.bundle",
+				"rcid": ""
+			},
+			"Width": 2,
+			"Height": 2,
+			"Grids": [
+				{
+					"_id": "73785790658826b6f77adcb7",
+					"_name": "GridView (1)",
+					"_parent": "dangler",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "7bf13808e28d5014b2799664",
+					"_name": "GridView (2)",
+					"_parent": "dangler",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "2",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "10ae3344e5bbe8e0b8dd0fc6",
+					"_name": "GridView (3)",
+					"_parent": "dangler",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "a6c2eedddf477aeb425b093b",
+					"_name": "GridView (4)",
+					"_parent": "dangler",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "4cb1379e959764d261c47948",
+					"_name": "GridView (5)",
+					"_parent": "dangler",
+					"_props": {
+						"cellsH": "1",
+						"cellsV": "1",
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"belt_fannypack",
+									"aerocorppistoleercombatbelt",
+									"citadelgeneralpurposeutilitybelt",
+									"pointmanassaultbelt",
+									"polytechorionreconbelt",
+									"lh63russianfederationdutybelt",
+									"rebel9c",
+									"rebel9g",
+									"assaullterbelt3",
+									"medicbelt",
+									"mrbgrenadierc",
+									"mrbvogb",
+									"grenadierbelt",
+									"assaultermedic",
+									"mrblmga",
+									"competitionbelt",
+									"riflemanbeltbison",
+									"kitteddangler"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			],
+			"RigLayoutName": "dangler"
+		},
+		"locales": {
+			"en": {
+				"name": "Ferro Concepts Dangler",
+				"shortName": "Dangler",
+				"description": "A Ferro Concepts Dangler Pouch."
+			},
+			"ru": {
+				"name": "Подвесной механизм Ferro Concepts",
+				"shortName": "Dangler",
+				"description": "Подвесной чехол Ferro Concepts."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [
+			"ArmBand"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 7900,
+		"handbookPriceRoubles": 5500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 65,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
 		"addtoBots": false,
 		"addtostaticlootcontainer": false,
 		"StaticLootContainers": [

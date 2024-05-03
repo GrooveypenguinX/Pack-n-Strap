@@ -45,6 +45,11 @@
 				"name": "Small Scavenger's Case",
 				"shortName": "Scav Case",
 				"description": "A rugged case that can be used to store random barter items."
+			},
+			"ru": {
+				"name": "Маленький чемоданчик мусорщика",
+				"shortName": "Чемоданчик мусорщика",
+				"description": "Прочный чемодан, который можно использовать для хранения случайных предметов на бартер."
 			}
 		},
 		"clearClonedProps": false,
@@ -348,6 +353,11 @@
 				"name": "Small Tool Bag",
 				"shortName": "Tool Bag",
 				"description": "A small repairman's tool bag that can be used for storing a small amount of tools."
+			},
+			"ru": {
+				"name": "Небольшая сумка для инструментов",
+				"shortName": "Сумка для инструментов",
+				"description": "Небольшая сумка для инструментов ремонтника, которую можно использовать для хранения небольшого количества инструментов."
 			}
 		},
 		"clearClonedProps": false,
@@ -467,6 +477,11 @@
 				"name": "Small Leather Docket",
 				"shortName": "Docket",
 				"description": "A small leather docket that can be used to securely store important small items and currency."
+			},
+			"ru": {
+				"name": "Небольшая кожаная папка для документов",
+				"shortName": "Планшетка",
+				"description": "Небольшая кожаная сумка, которую можно использовать для надежного хранения важных мелких предметов и валюты."
 			}
 		},
 		"clearClonedProps": false,
@@ -526,7 +541,7 @@
 					  "cellsV": 4,
 					  "filters": [
 						{
-						  
+
 						  "Filter": [
 							"57864c8c245977548867e7f1",
 							"543be5664bdc2dd4348b4569"
@@ -547,6 +562,11 @@
 				"name": "Small Medical Pouch",
 				"shortName": "Med Pouch",
 				"description": "A small medical pouch that can be used to store medical items."
+			},
+			"ru": {
+				"name": "Небольшая медицинская сумка",
+				"shortName": "Медицинская сумка",
+				"description": "Небольшая медицинская сумка, которую можно использовать для хранения медицинских принадлежностей."
 			}
 		},
 		"clearClonedProps": false,
@@ -606,7 +626,7 @@
 					  "cellsV": 2,
 					  "filters": [
 						{
-						  
+
 						  "Filter": [
 							"5485a8684bdc2da71d8b4567",
 							"543be5cb4bdc2deb348b4568"
@@ -627,6 +647,11 @@
 				"name": "Small Ammunition Pouch",
 				"shortName": "Ammo Pouch",
 				"description": "A small leather pouch that can be used to store munitions."
+			},
+			"ru": {
+				"name": "Маленький подсумок для патронов",
+				"shortName": "Подсумок для патронов",
+				"description": "Небольшой кожаный мешочек, который можно использовать для хранения боеприпасов."
 			}
 		},
 		"clearClonedProps": false,
@@ -686,7 +711,7 @@
 					  "cellsV": 4,
 					  "filters": [
 						{
-						  
+
 						  "Filter": [
 							"5448bc234bdc2d3c308b4569"
 						  ]
@@ -706,6 +731,11 @@
 				"name": "Small Magazine Pouch",
 				"shortName": "Mag Pouch",
 				"description": "A small fabric pouch that can be used to store magazines."
+			},
+			"ru": {
+				"name": "Небольшой подсумок для магазинов",
+				"shortName": "Подсумок для магазинов",
+				"description": "Небольшой тканевый мешочек, который можно использовать для хранения магазинов."
 			}
 		},
 		"clearClonedProps": false,
@@ -765,7 +795,7 @@
 					  "cellsV": 3,
 					  "filters": [
 						{
-						  
+
 						  "Filter": [
 							"5af0484c86f7740f02001f7f",
 							"5e54f6af86f7742199090bf3",
@@ -789,6 +819,11 @@
 				"name": "Vintage Lunch Box",
 				"shortName": "Lunch Box",
 				"description": "A retro lunch box that can be used to store a small amount of food or drink."
+			},
+			"ru": {
+				"name": "Винтажная коробка для ланча",
+				"shortName": "Коробка для ланча",
+				"description": "Ретро-ланч-бокс, который можно использовать для хранения небольшого количества еды или напитков."
 			}
 		},
 		"clearClonedProps": false,
@@ -847,7 +882,7 @@
 					  "cellsV": 2,
 					  "filters": [
 						{
-					
+
 						  "Filter": [
 							"5c99f98d86f7745c314214b3"
 						  ]
@@ -867,6 +902,11 @@
 				"name": "Small Key Ring",
 				"shortName": "Key Ring",
 				"description": "A key ring that can hold a small number of keys."
+			},
+			"ru": {
+				"name": "Небольшой Брелок для ключей",
+				"shortName": "Брелок для ключей",
+				"description": "Брелок для ключей, вмещающий небольшое количество ключей."
 			}
 		},
 		"clearClonedProps": false,
